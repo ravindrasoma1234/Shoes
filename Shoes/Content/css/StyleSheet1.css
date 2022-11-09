@@ -1,0 +1,39 @@
+﻿
+img{
+    height: 100%;
+    width:100%;
+}
+
+.card{
+    border : 2px solid black;
+}
+
+.logo{
+    height : 8%;
+    width : 15%;
+    border-bottom-left-radius : 10%;
+    border-bottom-right-radius : 20%;
+    border-top-right-radius : 10%;
+    border-bottom : 2px dashed red;
+    border-right : 2px dashed red;
+    margin : 10px;
+    padding-bottom : 2px;
+}
+
+.nav{
+    color : red;
+    font-size : 20px;
+}
+
+.hr::after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 5px solid #000880;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.row{
+    margin-bottom : 25px;
+}
